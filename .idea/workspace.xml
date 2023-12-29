@@ -4,657 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/com/gs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Samples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Samples/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/com/gs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/common/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/common/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/common/HelloWorldGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/common/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/common/TypeInferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit1/ComprableComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit1/Java7Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit1/java8Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit1/java8ComparatorWithPredicats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit2/java8ComparatorWithPredicats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit2/java8ComparatorWithPredicatsAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/unit3/ColletionJava8forEaachExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/unit3/MethodRefrenceExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/unit3/MethodRefrenceExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/unit3/StreamsExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="code revamp">
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/PrintStringEqualtoNumberOfOccranceOfeachChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/SubArrayWIthGivenSumWithsizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/immutable/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/immutable/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/immutable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/DSA_NEW1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/ArrayProblems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/CheckForSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/FrequenciesSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/LargestElementInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/LeadersInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/LeftRotateAnArrayByD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/LeftRotationArrayByOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/LongestEvenOddSubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/MaximumConsecutiveOnes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/MaximumDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/MaximumSubArraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/MoveAllZeroToEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/RemoveDuplicateFromArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/ReverseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/SecondLargest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/SlidingWindowTechnique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/StockBuySellNaive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/SubArrayWithGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/TestTaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/array/TrappingRainWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/list/singleLinkedList/Node/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/list/singleLinkedList/Node/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/mathematics/Mathematics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/recurssion/RecursionProblems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/DailyRoutineOptimizer$Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/DailyRoutineOptimizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/RegExTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/StudentMarks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/StudentMarks1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/TestTaker1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/TestTaker2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/debugging/TestTaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/debugging/TestTakerBugcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/riyadhTest/debugging/TestTakerold.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/ArrayIntersection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/ChocolateDistributionProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/CycleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/IntersectionOf2SortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/MergeTwoSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/MinimumDifferenceInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/QuickSortPartitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/SortArrayWithThreeTypesOfElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/SortArrayWithTwoTypesOfElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/SortedArraysIntersection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/sorting/UnionOfArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/ContFreqOfCharInString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/PalindrumCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/ReverseOrderOfWOrdInString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/ReverseString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/StringProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/pattern/NaivePatternSearching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/pattern/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/string/pattern/firstRepeatingCharinString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/Test2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/Test2/UserMainCodeGetBuildingCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/Test2/UserMainCodeGetVisibleCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/UserMainCode$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/UserMainCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/UserMainCode1$Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/out/production/DSA_NEW1/dsa1/test/UserMainCode1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/com/gs/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/ArrayProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/ArrayProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/CheckForSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/CheckForSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/FrequenciesSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/FrequenciesSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/LargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/LargestElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/LeadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/LeadersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/LeftRotateAnArrayByD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/LeftRotateAnArrayByD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/LeftRotationArrayByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/LeftRotationArrayByOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/LongestEvenOddSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/LongestEvenOddSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/MaximumConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/MaximumConsecutiveOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/MaximumDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/MaximumDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/MaximumSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/MaximumSubArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/MoveAllZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/MoveAllZeroToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/RemoveDuplicateFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/RemoveDuplicateFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/SlidingWindowTechnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/SlidingWindowTechnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/StockBuySellNaive.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/StockBuySellNaive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/SubArrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/SubArrayWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/TestTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/TestTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/array/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/list/singleLinkedList/Node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/list/singleLinkedList/Node/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/mathematics/Mathematics.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/mathematics/Mathematics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/recurssion/RecursionProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/recurssion/RecursionProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/DailyRoutineOptimizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/DailyRoutineOptimizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/RegExTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/RegExTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/StudentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/StudentMarks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/StudentMarks1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/StudentMarks1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/TestTaker1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/TestTaker1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/TestTaker2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/TestTaker2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/debugging/TestTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/debugging/TestTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/debugging/TestTakerBugcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/debugging/TestTakerBugcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/riyadhTest/debugging/TestTakerold.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/riyadhTest/debugging/TestTakerold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/ArrayIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ArrayIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/ChocolateDistributionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ChocolateDistributionProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/CycleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/CycleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/IntersectionOf2SortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/IntersectionOf2SortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeTwoSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/MinimumDifferenceInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MinimumDifferenceInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/QuickSortPartitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/QuickSortPartitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/SortArrayWithThreeTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithThreeTypesOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/SortArrayWithTwoTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithTwoTypesOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/SortedArraysIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortedArraysIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/sorting/UnionOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/UnionOfArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/ContFreqOfCharInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/ContFreqOfCharInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/PalindrumCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/PalindrumCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/ReverseOrderOfWOrdInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/ReverseOrderOfWOrdInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/StringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/StringProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/pattern/NaivePatternSearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/pattern/NaivePatternSearching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/pattern/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/pattern/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/pattern/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/pattern/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/string/pattern/firstRepeatingCharinString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/pattern/firstRepeatingCharinString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/Test2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/Test2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/Test2/UserMainCodeGetBuildingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/Test2/UserMainCodeGetBuildingCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/Test2/UserMainCodeGetVisibleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/Test2/UserMainCodeGetVisibleCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_NEW1/src/dsa1/test/UserMainCode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/test/UserMainCode1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/CeilingOnLeftSideInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/CeilingOnLeftSideInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/CheckForBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/CheckForBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/FloorAndCellingInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/FloorAndCellingInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/KtSmallestinBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/KtSmallestinBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BinarySearchTree/VerticalSumInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BinarySearchTree/VerticalSumInBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BitMagic/BitwiseOperationsPart1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BitMagic/BitwiseOperationsPart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BitMagic/BitwiseOperationsPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BitMagic/BitwiseOperationsPart2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/BitMagic/RightShiftOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/BitMagic/RightShiftOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/CountDistinctElementsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/CountDistinctElementsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/FrequenciesOfArrayAlements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/FrequenciesOfArrayAlements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/LongestCommonSumIn2BinaryArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/LongestCommonSumIn2BinaryArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/LongestConsecutiveSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/LongestConsecutiveSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/LongestSubaarayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/LongestSubaarayWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/LongestSubarrayWithEqualNumberOf0sand1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/LongestSubarrayWithEqualNumberOf0sand1s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/PairWithGiveSumInUnsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/PairWithGiveSumInUnsortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/SubarrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/SubarrayWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/SubarraywithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/SubarraywithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Hashing/UnionOfTwoUnsortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Hashing/UnionOfTwoUnsortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/CountNumberOfDIgits.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/CountNumberOfDIgits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/CountTRaillingWIthZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/CountTRaillingWIthZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/EvenOddCheckWithoutModOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/EvenOddCheckWithoutModOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/FactorialOfAnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/FactorialOfAnumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/PalindrumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/PalindrumNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/PrimeNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/PrimeNumberCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/AllDivisorsOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/AllDivisorsOfANumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/CheckForPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/CheckForPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/ComputingPowerRecursively.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/ComputingPowerRecursively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/CountDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/CountDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/CountTrailingZeroINFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/CountTrailingZeroINFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/GCD_HCF_of_twoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/GCD_HCF_of_twoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/IterativePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/IterativePower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/LCMofTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/LCMofTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/PalindrumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/PalindrumNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/PrimeFactors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Mathematics/test/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Mathematics/test/SieveOfEratosthenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/DiagonalDiffOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/DiagonalDiffOfMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/MatrixBoundaryTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/MatrixBoundaryTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/MatrixSnakePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/MatrixSnakePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/Multidimensional1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/Multidimensional1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/RotateMatrixAntiClockwiseBy90.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/RotateMatrixAntiClockwiseBy90.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/SpiralTraversalOfMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/SpiralTraversalOfMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Matrix/TransposeMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Matrix/TransposeMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Searching/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/ComparableSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/ComparableSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/ComparatorSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/ComparatorSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/ReverseOrderSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/ReverseOrderSortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/SortByComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/SortByComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Arrays/SortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Arrays/SortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/BubbledSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/BubbledSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Collections/Sort/Collectionsorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Collections/Sort/Collectionsorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Collections/Sort/SortingUsingComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Collections/Sort/SortingUsingComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Collections/Sort/SortingUsingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Collections/Sort/SortingUsingComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/Collections/Sort/TreeSetUsingComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/Collections/Sort/TreeSetUsingComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/QuickShort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/QuickShort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/mergesort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Sorting/selectionSort/NaiveApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Sorting/selectionSort/NaiveApproach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/AnagramSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/AnagramSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/CheckIfStringsAreRotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/CheckIfStringsAreRotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/ImprovedNaivePatternSearchingForDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/ImprovedNaivePatternSearchingForDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/LeftmostNonRepeatingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/LeftmostNonRepeatingElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/LeftmostRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/LeftmostRepeatingCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/NaivePatternSearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/NaivePatternSearching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/NumberOfOccranceOfChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/NumberOfOccranceOfChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/PalindrumCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/PalindrumCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/ReverseWordsInAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/String/StringSubsequenceOfOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/String/StringSubsequenceOfOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/BinaryTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/InorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/InorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/LevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/LevelOrderTraversalLineByLine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/LevelOrderTraversalLineByLine1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/Tree/PreAndPosteorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/Tree/PreAndPosteorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/Articles/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/Articles/ArrayOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/exer1/operations/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/exer1/operations/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/exer1/operations/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/exer1/operations/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/exer1/operations/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/exer1/operations/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/ChocolateDistributionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/ChocolateDistributionProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/DutchNationalFlagProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/DutchNationalFlagProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/FindTheINdexOfLarsestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/FindTheINdexOfLarsestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/FreequencyOfElemetInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/FreequencyOfElemetInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/LeadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/LeadersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/LeftRotationByD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/LeftRotationByD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/LeftRotationByOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/LeftRotationByOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/LongestEvenOddSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/LongestEvenOddSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MaxConsequtiveOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MaxConsequtiveOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MaxDiffbwElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MaxDiffbwElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MaximumCircularSumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MaximumCircularSumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MaximumSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MaximumSubArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MaximumSumOfKConsecutiveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MaximumSumOfKConsecutiveElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MinimumConsecutiveFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MinimumConsecutiveFlips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/MoveZerosToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/RemoveDublicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/RemoveDublicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/SecondLargestElemement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/SecondLargestElemement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/Segregate0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/Segregate0and1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/SubarrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/SubarrayWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/old/checkShortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/checkShortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/qustions/CheckForSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/qustions/CheckForSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/qustions/LargestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/qustions/LargestElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/qustions/RemoveDuplicatesFormSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/qustions/RemoveDuplicatesFormSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/qustions/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/qustions/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/array/qustions/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/qustions/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/introduction/PrimeNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/introduction/PrimeNumberCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/introduction/SumOftheNUmbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/introduction/SumOftheNUmbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/lrucache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/lrucache/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/lrucache/TestLRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/lrucache/TestLRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleCircularLInkedLIst/CirculaSIngleLInkedLIst.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleCircularLInkedLIst/CirculaSIngleLInkedLIst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleCircularLInkedLIst/CircularLInkedLIstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleCircularLInkedLIst/CircularLInkedLIstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleCircularLInkedLIst/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleCircularLInkedLIst/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/SingSingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/SingSingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/SingSingleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/SingSingleLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/old/LinkedLIstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/old/LinkedLIstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/old/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/old/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/linkedList/singleLinkedList/palindrom/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/linkedList/singleLinkedList/palindrom/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/comprableComparator/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/comprableComparator/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/equalhashcode/EqualsAndHashcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/equalhashcode/EqualsAndHashcode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/immutable/Age.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/immutable/Age.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/immutable/ImmutableStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/immutable/ImmutableStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/producerConsumer/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/producerConsumer/ProducerConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/miscellaneous/singalton/Singalton.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/singalton/Singalton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/paypal/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/paypal/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/paypal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/paypal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/paypal/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/paypal/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/queue/QueueUsingLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/queue/QueueUsingLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/queue/ReversingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/queue/ReversingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/basecases/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/basecases/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/basecases/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/basecases/FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/DecimalToBinaryConvProgramme_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/DecimalToBinaryConvProgramme_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/JosephusProblem_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/JosephusProblem_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/PrintOneToN_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/PrintOneToN_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/PrintingNtoOne_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/PrintingNtoOne_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/Programme_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/Programme_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/Programme_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/Programme_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/RecurssionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/RecurssionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/RecurssionWithExitConditions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/RecurssionWithExitConditions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/RopeCuttingProblem_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/RopeCuttingProblem_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/StringPalindrome_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/StringPalindrome_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/StringPermutation_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/StringPermutation_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/StringSubsetsProblems_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/StringSubsetsProblems_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/SubsetSumProblem_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/SubsetSumProblem_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/SumOfDigits_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/SumOfDigits_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/SumOfNaturalNumbers_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/SumOfNaturalNumbers_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/TowerOfHanoi_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/TowerOfHanoi_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/gen/logNWithBase2Programme_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/logNWithBase2Programme_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/tailRecu/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/tailRecu/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/tailRecu/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/tailRecu/Example2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/exersise1/tailRecu/Example3.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/tailRecu/Example3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/CountSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/CountSubsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/PrintNTo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/PrintNTo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/StringPalindrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/StringPalindrum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/SubsetOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/SubsetOfString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/SumOfDigitsOfNUmb.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/SumOfDigitsOfNUmb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/SumOfNaturaNUmbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/SumOfNaturaNUmbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/recursion/old/TailRecursiveFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/old/TailRecursiveFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/BalancedParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/BalancedParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/MyStackUSingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/MyStackUSingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/MyStackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/MyStackUsingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/MyStackUsingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/MyStackUsingArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/PreviousGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/PreviousGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/src/main/java/stack/TwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/stack/TwoStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/CeilingOnLeftSideInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/CheckForBST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/CheckForBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/FloorAndCellingInBST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/FloorAndCellingInBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/KtSmallestinBST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/KtSmallestinBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/VerticalSumInBinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BinarySearchTree/VerticalSumInBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BitMagic/BitwiseOperationsPart1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BitMagic/BitwiseOperationsPart2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/BitMagic/RightShiftOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/CountDistinctElementsInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/FrequenciesOfArrayAlements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/IntersectionOfTwoArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/LongestCommonSumIn2BinaryArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/LongestConsecutiveSubsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/LongestSubaarayWithGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/LongestSubarrayWithEqualNumberOf0sand1s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/PairWithGiveSumInUnsortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/SubarrayWithGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/SubarraywithZeroSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Hashing/UnionOfTwoUnsortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/CountNumberOfDIgits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/CountTRaillingWIthZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/EvenOddCheckWithoutModOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/FactorialOfAnumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/LCM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/PalindrumNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/PrimeNumberCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/AllDivisorsOfANumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/CheckForPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/ComputingPowerRecursively.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/CountDigits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/CountTrailingZeroINFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/GCD_HCF_of_twoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/IterativePower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/LCMofTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/PalindrumNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/PrimeFactors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Mathematics/test/SieveOfEratosthenes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/DiagonalDiffOfMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/MatrixBoundaryTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/MatrixSnakePattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/Multidimensional1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/RotateMatrixAntiClockwiseBy90.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/SpiralTraversalOfMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Matrix/TransposeMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Searching/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/ComparableSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/ComparatorSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/MyCmp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/MyCmp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/Point1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/ReverseOrderSortExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/SortByComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Arrays/SortExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/BubbledSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/Collectionsorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/Point1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/SortingUsingComparable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/SortingUsingComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/Collections/Sort/TreeSetUsingComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/QuickShort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/mergesort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Sorting/selectionSort/NaiveApproach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/Anagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/AnagramSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/CheckIfStringsAreRotations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/ImprovedNaivePatternSearchingForDistinct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/LeftmostNonRepeatingElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/LeftmostRepeatingCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/NaivePatternSearching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/NumberOfOccranceOfChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/PalindrumCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/ReverseWordsInAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/String/StringSubsequenceOfOther.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/BinaryTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/BinaryTreeTest$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/BinaryTreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/InorderTraversal$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/InorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/LevelOrderTraversal$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/LevelOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/LevelOrderTraversalLineByLine1$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/LevelOrderTraversalLineByLine1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/PreAndPosteorderTraversal$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/Tree/PreAndPosteorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/Articles/ArrayOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/exer1/operations/Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/exer1/operations/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/exer1/operations/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/ChocolateDistributionProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/DutchNationalFlagProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/FindTheINdexOfLarsestElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/FreequencyOfElemetInSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/LeadersInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/LeftRotationByD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/LeftRotationByOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/LongestEvenOddSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MajorityElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MaxConsequtiveOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MaxDiffbwElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MaximumCircularSumSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MaximumSubArraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MaximumSumOfKConsecutiveElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MinimumConsecutiveFlips.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/MoveZerosToEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/RemoveDublicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/ReverseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/SecondLargestElemement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/Segregate0and1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/SubarrayWithGivenSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/TrappingRainWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/old/checkShortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/qustions/CheckForSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/qustions/LargestElementInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/qustions/RemoveDuplicatesFormSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/qustions/ReverseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/array/qustions/SecondLargest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/introduction/PrimeNumberCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/introduction/SumOftheNUmbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/lrucache/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/lrucache/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/lrucache/TestLRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleCircularLInkedLIst/CirculaSIngleLInkedLIst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleCircularLInkedLIst/CircularLInkedLIstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleCircularLInkedLIst/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/Node1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/SingSingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/SingSingleLinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/old/LinkedLIstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/old/SingleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/old/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/palindrom/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/linkedList/singleLinkedList/palindrom/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/comprableComparator/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/equalhashcode/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/equalhashcode/EqualsAndHashcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/immutable/Age.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/immutable/ImmutableStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/producerConsumer/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/producerConsumer/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/producerConsumer/ProducerConsumerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/miscellaneous/singalton/Singalton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/paypal/BinaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/paypal/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/queue/QueueUsingLinked$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/queue/QueueUsingLinked$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/queue/QueueUsingLinked.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/queue/ReversingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/basecases/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/basecases/FibonacciSeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/DecimalToBinaryConvProgramme_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/JosephusProblem_13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/PrintOneToN_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/PrintingNtoOne_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/Programme_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/Programme_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/RecurssionDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/RecurssionWithExitConditions2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/RopeCuttingProblem_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/StringPalindrome_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/StringPermutation_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/StringSubsetsProblems_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/SubsetSumProblem_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/SumOfDigits_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/SumOfNaturalNumbers_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/TowerOfHanoi_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/gen/logNWithBase2Programme_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/tailRecu/Example1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/tailRecu/Example2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/exersise1/tailRecu/Example3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/CountSubsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/PrintNTo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/StringPalindrum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/SubsetOfString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/SumOfDigitsOfNUmb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/SumOfNaturaNUmbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/recursion/old/TailRecursiveFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/BalancedParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/GFG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/MyStackUSingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/MyStackUsingArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/MyStackUsingArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/PreviousGreaterElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/StackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_DSA/target/classes/stack/TwoStacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/java streams slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/javastreams.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/beans/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/beans/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/beans/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/beans/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/beans/PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/exercises/MoreExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/exercises/MoreExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture1.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture10.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture11.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture12.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture13.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture14.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture3.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture4.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture5.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture6.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture7.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture8.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Lecture9.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Lecture9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/lectures/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/lectures/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/java/mockdata/MockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/mockdata/MockData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/resources/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/resources/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-streams-course-master/src/test/resources/people.json" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/resources/people.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/bt/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/bt/MyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/eclax/UpdateDbListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/eclax/UpdateDbListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/eclax/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/eclax/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/eclax/UserUpdateAndSaveExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/eclax/UserUpdateAndSaveExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/employee/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/employee/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/employee/SuperClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/employee/SuperClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/employee/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/employee/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/employee/test/SuperClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/employee/test/SuperClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/epam/FibbonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epam/FibbonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/epam/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epam/StockBuySell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/epam/UserMainCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epam/UserMainCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/epsilon/Epsillon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epsilon/Epsillon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/epsilon/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epsilon/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/newSletter/Abstruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/newSletter/abAbstruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/newSletter/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/newSletter/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/newSletter/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/newSletter/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/newSletter/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/newSletter/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/newSletter/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/newSletter/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/EPAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/EPAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/MapleLabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/MapleLabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Persistance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Persistance1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Singlaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Singlaton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Singlton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Singlton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/practice/Test3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/practice/Test3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/tejasNetwork/KafkaConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/tejasNetwork/KafkaConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/tejasNetwork/KafkaProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/tejasNetwork/KafkaProducerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/tejasNetwork/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/tejasNetwork/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/tejasNetwork/NewsAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/tejasNetwork/NewsAgency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/tejasNetwork/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/tejasNetwork/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/test1/AddLargeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/test1/AddLargeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/java/org/example/test1/AddTwoLargeStringNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/test1/AddTwoLargeStringNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/bt/MyString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/Sequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/SubClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/SuperClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/test/SubClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/employee/test/SuperClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/epam/FibbonacciSeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/epam/StockBuySell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/epam/UserMainCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/epsilon/Epsillon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/epsilon/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/EPAM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/MapleLabs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Persistance1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Singlaton$Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Singlaton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Singlton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Test$Studen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/practice/Test3d.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/test1/AddLargeNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/target/classes/org/example/test1/AddTwoLargeStringNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/string/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit2/java8ComparatorWithPredicats.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/main/java/lamdabasics/comparablecomparatorUnit2/java8ComparatorWithPredicats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -663,6 +23,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -679,20 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "D:/JAVA/DSA/DSA_NEW1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/DSA/DSA_NEW1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="miscellaneous.immutable" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\DSA\Samples\src\main\java" />
       <recent name="D:\JAVA\DSA\Samples\src\main" />
@@ -701,13 +72,65 @@
       <recent name="D:\JAVA\DSA\DSAV2\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bt.MyString" />
-      <module name="Samples" />
+  <component name="RunManager" selected="Application.PrintStringEqualtoNumberOfOccranceOfeachChars">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miscellaneous.immutable.Employee" />
+      <module name="DSAV1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bt.*" />
+          <option name="PATTERN" value="miscellaneous.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miscellaneous.immutable.ImmutableStudent" />
+      <module name="DSAV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miscellaneous.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintStringEqualtoNumberOfOccranceOfeachChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.PrintStringEqualtoNumberOfOccranceOfeachChars" />
+      <module name="DSAV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseString" />
+      <module name="DSAV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miscellaneous.immutable.Student" />
+      <module name="DSAV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miscellaneous.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -717,7 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyString" />
+        <item itemvalue="Application.PrintStringEqualtoNumberOfOccranceOfeachChars" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.ImmutableStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -751,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703612749903</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code revamp">
+      <created>1703619050358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703619050358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -794,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="code revamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="code revamp" />
   </component>
 </project>

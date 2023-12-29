@@ -1,12 +1,12 @@
 package lamdabasics.comparablecomparatorUnit2;
 
+import lamdabasics.comparablecomparatorUnit1.Person;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
-
-import com.gs.lamdabasics.comparablecomparatorUnit1.Person;
 
 public class java8ComparatorWithPredicats {
 
