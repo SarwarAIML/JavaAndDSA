@@ -1,10 +1,10 @@
 package string;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StringProblem {
@@ -24,9 +24,8 @@ public class StringProblem {
 
     public static void  printFrequencyUsingMap(String string){
         Map<Character,Integer> map = new LinkedHashMap<Character,Integer>();
-
+        string = string.replaceAll("[^a-zA-Z0-9]","");
         for (int i = 0; i <string.length() ; i++) {
-            if (string.charAt(i) !=' ')
                 map.put(string.charAt(i),map.getOrDefault(i,0)+1);
         }
         System.out.println(map);
@@ -53,6 +52,12 @@ public class StringProblem {
             end--;
         }
         return true;
+    }
+
+    public static boolean isPalindromeJava8(String string)
+    {
+        return IntStream.range(0,string.length()/2)
+                .allMatch(index -> string.charAt(index) == string.charAt(string.length()-index-1));
     }
 
     public static String printPalindromeString(String string){
@@ -154,8 +159,19 @@ public class StringProblem {
         System.out.println(character);
     }
 
-    
+    public static void printNonPalindromeWords(String string){
+        List<String> words = Arrays.stream(string.split(" ")).
+                filter(word -> !isPalindrome(word)).collect(Collectors.toList());
+   //     Arrays.stream(string.split(" ")).filter(Predicate.not(StringProblem::isPalindromeJava8));
+        System.out.println(words);
+    }
 
+    public static void printPalindromeWords(String string) {
+        List<String> stringList = Arrays.stream(string.split(" ")).
+                filter((StringProblem::isPalindromeJava8)).collect(Collectors.toList());
+        System.out.println(stringList);
+
+    }
 
 
     public static void main(String[] args) {
@@ -180,6 +196,12 @@ public class StringProblem {
         System.out.println("========================isPalindrome=========start");
         System.out.println(isPalindrome("madam"));
         System.out.println("========================isPalindrome=========end");
+        System.out.println();
+
+        System.out.println("========================printNonPalindromeWords=========start");
+        String palindrome = "malayalam";
+        System.out.println(isPalindromeJava8(palindrome));
+        System.out.println("========================printNonPalindromeWords=========end");
         System.out.println();
 
         System.out.println("========================isPalindrome=========start");
@@ -228,6 +250,19 @@ public class StringProblem {
         leftMostNonRepeatingJava8(s);
         System.out.println("========================leftMostNonRepeatingJava8=========end");
         System.out.println();
+
+        System.out.println("========================printNonPalindromeWords=========start");
+        String str1 = "i know malayalam well";
+        printNonPalindromeWords(str1);
+        System.out.println("========================printNonPalindromeWords=========end");
+        System.out.println();
+
+        System.out.println("========================printPalindromeWords=========start");
+        printPalindromeWords(str1);
+        System.out.println("========================printPalindromeWords=========end");
+        System.out.println();
+
+
 
     }
 }

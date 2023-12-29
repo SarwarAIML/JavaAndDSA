@@ -1,5 +1,8 @@
 package practice;
 
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
 public class MapleLabs {
 
     public static void main(String[] args) {
@@ -9,7 +12,9 @@ public class MapleLabs {
         //	output = know well
         String str = "i know malayalam well";
 
-        appendWords(  str );
+      //  appendWords(  str );
+        Stream.of(str.split(" ")).filter(Predicate.not(MapleLabs::isPalindrum))
+                .forEach(string -> System.out.print(string+"\t"));
 
     }
 
