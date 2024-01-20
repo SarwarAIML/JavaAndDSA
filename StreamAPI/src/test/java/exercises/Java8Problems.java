@@ -5,22 +5,20 @@ import lectures.Student;
 import org.junit.Test;
 import beans.Person;
 import com.google.common.collect.ImmutableList;
-import java.io.IOException;
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import static java.util.Map.Entry.*;
+import static java.util.function.Function.*;
 
 import mockdata.MockData;
 import org.assertj.core.util.Lists;
-import org.junit.Test;
-public class MoreExercises {
+public class Java8Problems {
   // TODO: Coming soon
 
     //
-    // filter and limit example
+    // filter and limit gs
     @org.junit.jupiter.api.Test
     public void lintExample() throws Exception {
         ImmutableList<Person> people = MockData.getPeople();
@@ -30,7 +28,7 @@ public class MoreExercises {
 
     }
 
-    //range example
+    //range gs
     @Test
     public void range() throws Exception
     {
@@ -183,7 +181,7 @@ public class MoreExercises {
                         "Alex"
                 );
         Map<String, Long> counting = names.stream()
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+                .collect(Collectors.groupingBy(identity(), Collectors.counting()));
         counting.forEach((name,count) -> System.out.println(name +"--->" +count));
 
     }
@@ -209,11 +207,8 @@ public class MoreExercises {
         int sum = Arrays.stream(integers).reduce(0,(a,b) ->a+b);
         System.out.println(sum);
         System.out.println("===========================================");
-
         Integer sumIngers = Arrays.stream(integers).reduce(0, Integer::sum);
-
         System.out.println("sumIngers:::"+sumIngers);
-
 
     }
 
@@ -232,6 +227,34 @@ public class MoreExercises {
                 .flatMap(List::stream)
                 .collect(Collectors.toList());
         System.out.println(stringList);
+    }
+
+    @Test
+    public void flatMapMergeTwoList(){
+        List<Integer> l1 = Arrays.asList(4, 5);
+        List<Integer> l2 = Arrays.asList(1, 2, 3);
+        //o/p
+        //List<int []> pairs = {[4,1], [4,2], [4,3] , [5,1], [5,2], [5,3]} in this you have to pair the list of integers.
+
+         l1.stream()
+                .flatMap(i -> l2.stream().map(j -> new int[]{i, j}))
+                .forEach(arr->System.out.print(Arrays.toString(arr)));
+         Map map = new HashMap();
+
+
+     /*   List<Integer> list1 = {1,2}
+        List<Integer> list2 = {3,4}*/
+
+    //    List<int[]> pairs = {[1,3], [1,4] , [2,3], [2,4]}
+
+        List<int[]> pairs = new ArrayList<>();
+        l1.stream().forEach(i -> l2.stream().forEach(j ->{
+            int[] arr = new int[2];
+            arr[0] = i;
+            arr[1] = j;
+            pairs.add(arr);
+        }));
+
     }
 
     @Test
@@ -283,7 +306,7 @@ public class MoreExercises {
 
         Character nonRepChar = input.chars()
                 .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s)))
-                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
                 .entrySet()
                 .stream()
                 .filter(entry -> entry.getValue() == 1)
@@ -299,7 +322,7 @@ public class MoreExercises {
 
         Character nonRepChar = input.chars()
                 .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s)))
-                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
                 .entrySet()
                 .stream()
                 .filter(entry -> entry.getValue() > 1)
@@ -314,7 +337,7 @@ public class MoreExercises {
         String input = "Java Hungry Blog Alive is Awesome";
 
         Character character = input.chars().mapToObj(ch -> Character.toLowerCase(Character.valueOf((char) ch)))
-                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
                 .entrySet()
                 .stream()
                 .filter(entry -> entry.getValue() > 1)
@@ -339,10 +362,112 @@ public class MoreExercises {
     public void charCount() throws Exception{
         String str = "Java";
       str.chars().mapToObj(c -> (char) c)
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .collect(Collectors.groupingBy(identity(), Collectors.counting()))
                 .forEach((key,value)-> System.out.println(key+" "+value));
 
     }
 
+    //Group all occurrences of characters according to first appearance
+    @Test
+    public void groupingChar() throws Exception {
+        String string = "occurrence";
+        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder1 = new StringBuilder();
+        Map<Character, Long> map = string.chars().mapToObj(ch -> Character.valueOf((char) ch))
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()));
+
+        String newString = map.entrySet().stream()
+                .flatMapToInt(entry -> IntStream.generate(() -> entry.getKey())
+                        .limit(entry.getValue()))
+                .mapToObj(Key -> (char) Key)
+                .map(ch -> ch.toString())
+                .collect(Collectors.joining());
+        System.out.println(newString);
+
+        map.forEach((character, aLong) ->
+                {
+                    for (int i = 0; i <aLong ; i++) {
+                        stringBuilder.append(character);
+                    }
+                }
+        );
+
+        map.forEach((character, count) -> IntStream.range(0, count.intValue()).forEach(i -> stringBuilder1.append(character)));
+
+        System.out.println(stringBuilder1.toString());
+
+
+    }
+
+    @Test
+    public void findTopElementOfMapBasedOnKeyCount() {
+        //it will give most occurrence city from list
+        List<String> stringList = List.of("Bangalore", "Ranchi", "Hydrabada", "Bangalore", "Bangalore");
+
+        String city = (String) Arrays.stream(stringList.toArray())
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
+                .entrySet()
+                .stream()
+                .sorted((o1, o2) -> o2.getValue().compareTo(o1.getValue()))
+                .map(entryset -> entryset.getKey())
+                .findFirst()
+                .get();
+        System.out.println(city);
+
+    }
+
+    @Test
+    public void findMaxOccurrenceElementInArray(){
+        int[] arr = { 2,45,3,45,6,7,3,8,9,3};
+        Integer Max = Arrays.stream(arr).boxed()
+                .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
+                .entrySet()
+                .stream()
+                .max(comparingByValue())
+                .map(entry -> entry.getKey())
+                .get();
+        System.out.println(Max);
+    }
+    @Test
+    public void findNthSmallestInMatrix(){
+        int  k = 3;
+        int mat[][] = { { 10, 20, 30, 40 },
+                { 15, 25, 35, 45 },
+                { 25, 29, 37, 48 },
+                { 32, 33, 39, 50 } };
+        //o/p : 20
+        int[] flatArray = Arrays.stream(mat)
+                .flatMapToInt(Arrays::stream)
+                .toArray();
+        // Sort the array
+        Arrays.sort(flatArray);
+         int kthSmall = flatArray[k - 1];
+        System.out.println(kthSmall);
+    }
+        @Test
+        public void findTopElementOfMapBasedOnKeyCount1(){
+            //it will give most occurrence city from list
+            List<String> stringList = List.of("Bangalore","Ranchi","Hyderabad","Bangalore","Bangalore");
+
+            String city = (String) Arrays.stream(stringList.toArray())
+                    .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()))
+                    .entrySet()
+                    .stream()
+                    .sorted(Collections.reverseOrder( Map.Entry.comparingByValue()))
+                    .map(entryset-> entryset.getKey())
+                    .findFirst()
+                    .get();
+            System.out.println(city);
+      //      .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+    }
+
+    @Test
+    public  void isPalindrom(){
+        String string = "madame";
+        boolean isPalindrom = IntStream.range(0, string.length() / 2)
+                .allMatch(index -> string.charAt(index) == string.charAt(string.length() - 1 - index));
+        System.out.println(isPalindrom);
+        // string.chars().cl
+    }
 
 }

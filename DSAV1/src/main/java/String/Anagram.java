@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * An anagram of a String is another String that contains the same characters,
  * only the order of characters can be different.
- * For example, “abcd” and “dabc” are an anagram of each other.
+ * For gs, “abcd” and “dabc” are an anagram of each other.
  */
 public class Anagram {
 

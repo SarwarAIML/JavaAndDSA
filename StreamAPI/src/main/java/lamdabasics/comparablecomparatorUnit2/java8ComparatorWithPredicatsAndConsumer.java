@@ -1,3 +1,4 @@
+/*
 package lamdabasics.comparablecomparatorUnit2;
 
 import java.util.ArrayList;
@@ -5,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.function.Predicate;
+import java.util.function.predicate;
 
 import com.gs.lamdabasics.comparablecomparatorUnit1.Person;
 
@@ -53,16 +54,18 @@ public class java8ComparatorWithPredicatsAndConsumer {
 	
 	
 	//in this method instead of Condition interface we can use the Predicates interface
-	/*private static void printConditionally(List<Person> people, Condition condition) {
+	*/
+/*private static void printConditionally(List<Person> people, Condition condition) {
 		for(Person p:people)
 		{
 			if(condition.test(p))
 			{
 				System.out.println(p);
 			}
-		}*/
-		//above method implementation with Predicate interface functional interface
-		private static void performConditionally(List<Person> people, Predicate<Person> predicate,Consumer<Person> consumer) {
+		}*//*
+
+		//above method implementation with predicate interface functional interface
+		private static void performConditionally(List<Person> people, predicate<Person> predicate,Consumer<Person> consumer) {
 			for(Person p:people)
 			{
 				if(predicate.test(p))
@@ -77,3 +80,4 @@ public class java8ComparatorWithPredicatsAndConsumer {
 
 	
 }
+*/

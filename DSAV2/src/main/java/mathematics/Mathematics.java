@@ -355,7 +355,7 @@ public class Mathematics {
      *
      * If we look carefully, all the divisors are present in pairs.
      *
-     * For example if n = 100, then the various pairs of divisors are: (1,100), (2,50), (4,25), (5,20), (10,10)
+     * For gs if n = 100, then the various pairs of divisors are: (1,100), (2,50), (4,25), (5,20), (10,10)
      *
      * Using this fact we could speed up our program significantly. We,
      * however, have to be careful if there are two equal divisors as in the case of (10, 10). In such case, we’d print only one of them.

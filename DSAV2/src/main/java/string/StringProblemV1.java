@@ -2,12 +2,11 @@ package string;
 
 import java.util.*;
 import java.util.function.Function;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StringProblem {
+public class StringProblemV1 {
     public static void printFrequencyOfCharsInString(String string){
         int[] count = new int[256];
           string = string.toLowerCase();
@@ -75,7 +74,7 @@ public class StringProblem {
 
     public static void printAllPalindromeWordUsingJava8(String string) {
 
-        Stream.of(string.split(" ")).filter(StringProblem::isPalindrome)
+        Stream.of(string.split(" ")).filter(StringProblemV1::isPalindrome)
                 .forEach(string1 -> System.out.println(string1));
     }
 
@@ -127,7 +126,7 @@ public class StringProblem {
             if (string.charAt(i) !=' ')
                count[string.charAt(i)]++;
         }
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < string.length(); i++) {
             if (count[string.charAt(i)]>1){
                 return i;
             }
@@ -162,13 +161,13 @@ public class StringProblem {
     public static void printNonPalindromeWords(String string){
         List<String> words = Arrays.stream(string.split(" ")).
                 filter(word -> !isPalindrome(word)).collect(Collectors.toList());
-   //     Arrays.stream(string.split(" ")).filter(Predicate.not(StringProblem::isPalindromeJava8));
+   //     Arrays.stream(string.split(" ")).filter(predicate.not(StringProblemV1::isPalindromeJava8));
         System.out.println(words);
     }
 
     public static void printPalindromeWords(String string) {
         List<String> stringList = Arrays.stream(string.split(" ")).
-                filter((StringProblem::isPalindromeJava8)).collect(Collectors.toList());
+                filter((StringProblemV1::isPalindromeJava8)).collect(Collectors.toList());
         System.out.println(stringList);
 
     }

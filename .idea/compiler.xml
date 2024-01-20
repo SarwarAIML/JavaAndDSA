@@ -9,7 +9,9 @@
         <module name="DSAV1" />
         <module name="DSAV2" />
         <module name="StreamAPI" />
+        <module name="java8" />
         <module name="Samples" />
+        <module name="javastreams" />
       </profile>
     </annotationProcessing>
   </component>

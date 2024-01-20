@@ -1,4 +1,4 @@
-package sorting;
+package list.singleLinkedList.Node.sorting;
 
 import java.util.Arrays;
 
@@ -47,5 +47,14 @@ public class SortedArraysIntersection {
             }
         }
        return Arrays.copyOf(result,k);
+    }
+
+    int[] intersectOfArrayUsingJava8(int[] a,int[] b){
+
+        int[] ints = Arrays.stream(a)
+                .distinct()
+                .filter(x -> Arrays.asList(b).contains(x)).toArray();
+
+        return ints;
     }
 }

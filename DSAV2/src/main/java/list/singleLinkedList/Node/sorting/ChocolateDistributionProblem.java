@@ -1,4 +1,4 @@
-package sorting;
+package list.singleLinkedList.Node.sorting;
 
 import java.net.StandardSocketOptions;
 import java.util.Arrays;

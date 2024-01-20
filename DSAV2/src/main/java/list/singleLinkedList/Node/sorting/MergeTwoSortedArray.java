@@ -1,4 +1,4 @@
-package sorting;
+package list.singleLinkedList.Node.sorting;
 
 import java.util.Arrays;
 
@@ -51,7 +51,7 @@ public class MergeTwoSortedArray {
         System.out.println(Arrays.toString(ints1));*/
 
         int arr1[] ={2,4,6,8};
-        int arr2[] = {1,3,5,7};
+        int arr2[] = {1,4,5,7};
         int[] ints2 = merge2SortedArray(arr1, arr2);
         System.out.println(Arrays.toString(ints2));
     }

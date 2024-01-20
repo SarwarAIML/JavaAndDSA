@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java8/WS" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java8/WS/java8" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Notes/Java8/WS" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Notes/Java8/WS/java8" vcs="Git" />
   </component>
 </project>

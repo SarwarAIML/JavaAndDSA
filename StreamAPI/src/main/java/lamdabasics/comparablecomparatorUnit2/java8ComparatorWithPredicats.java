@@ -60,7 +60,7 @@ public class java8ComparatorWithPredicats {
 				System.out.println(p);
 			}
 		}*/
-		//above method implementation with Predicate interface functional interface
+		//above method implementation with predicate interface functional interface
 		private static void printConditionally(List<Person> people, Predicate<Person> predicate) {
 			for(Person p:people)
 			{

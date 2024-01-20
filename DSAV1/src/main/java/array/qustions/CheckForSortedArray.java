@@ -10,7 +10,6 @@ public class CheckForSortedArray {
         }
         return true;
     }
-
     public static boolean isArraySortedNaive(int array[]){
 
         for (int i = 0; i < array.length ; i++) {
@@ -27,4 +26,5 @@ public class CheckForSortedArray {
         System.out.println(isArraySortedNaive(array));
         System.out.println(isArraySorted(array));
     }
+
 }

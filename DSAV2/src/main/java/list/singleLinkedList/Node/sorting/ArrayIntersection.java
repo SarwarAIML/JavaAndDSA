@@ -1,6 +1,7 @@
-package sorting;
+package list.singleLinkedList.Node.sorting;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class ArrayIntersection {
     public static void main(String[] args) {
@@ -63,5 +64,13 @@ public class ArrayIntersection {
         // Resize the result array to the actual number of common elements
         return Arrays.copyOf(result, k);
     }
-}
 
+    int[] intersectOfArrayUsingJava8(int[] a,int[] b){
+
+         int[] ints = Arrays.stream(a)
+                .distinct()
+                .filter(x -> Arrays.asList(b).contains(x)).toArray();
+
+        return ints;
+    }
+}

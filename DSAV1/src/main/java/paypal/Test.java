@@ -7,13 +7,13 @@ import java.util.List;
 /**
  * Simplifying
  * <p>
- * You are given a list/array of example equalities such as:
+ * You are given a list/array of gs equalities such as:
  * <p>
  * [ "a + a = b", "b - d = c ", "a + b = d" ]
  * Use this information to solve a given formula in terms of the remaining symbol such as:
  * <p>
  * formula = "c + a + b"
- * in this example:
+ * in this gs:
  * <p>
  * "c + a + b" = "2a"
  * So the output is "2a"

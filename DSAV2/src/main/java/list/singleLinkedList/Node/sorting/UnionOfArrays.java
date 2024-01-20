@@ -1,6 +1,7 @@
-package sorting;
+package list.singleLinkedList.Node.sorting;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class UnionOfArrays {
 
@@ -64,5 +65,9 @@ public class UnionOfArrays {
             }
         }
         return Arrays.copyOf(result,k);
+    }
+
+    Integer[] unionOfArrayUsingJava8(int[] a,int[] b){
+        return Stream.of(a,b).flatMap(Stream::of).toArray(Integer[]::new);
     }
 }
