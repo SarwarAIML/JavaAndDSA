@@ -373,12 +373,12 @@ public class Java8Problems {
         String string = "occurrence";
         StringBuilder stringBuilder = new StringBuilder();
         StringBuilder stringBuilder1 = new StringBuilder();
+
         Map<Character, Long> map = string.chars().mapToObj(ch -> Character.valueOf((char) ch))
                 .collect(Collectors.groupingBy(identity(), LinkedHashMap::new, Collectors.counting()));
 
         String newString = map.entrySet().stream()
-                .flatMapToInt(entry -> IntStream.generate(() -> entry.getKey())
-                        .limit(entry.getValue()))
+                .flatMapToInt(entry -> IntStream.generate(() -> entry.getKey()).limit(entry.getValue()))
                 .mapToObj(Key -> (char) Key)
                 .map(ch -> ch.toString())
                 .collect(Collectors.joining());
@@ -468,6 +468,26 @@ public class Java8Problems {
                 .allMatch(index -> string.charAt(index) == string.charAt(string.length() - 1 - index));
         System.out.println(isPalindrom);
         // string.chars().cl
+    }
+
+    @Test
+    public void evenOddCollector(){
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        Map<Boolean, List<Integer>> evenOddMap = numbers.stream()
+                .collect(Collectors.partitioningBy(n -> n % 2 == 0));
+        List<Integer> evenNumbers = evenOddMap.get(true);
+        List<Integer> oddNumbers = evenOddMap.get(false);
+        System.out.println("Even numbers: " + evenNumbers);
+        System.out.println("Odd numbers: " + oddNumbers);
+        System.out.println(evenOddMap);
+    }
+
+    @Test
+    public void reverseWords(){
+        String string = "Welcome to Geeks for Geeks";
+        String[] strings = string.split("\\s+");
+        Optional<String> reverseWord = Arrays.stream(strings).reduce((s1, s2) -> s2 + " " + s1);
+        reverseWord.ifPresent(System.out::println);
     }
 
 }

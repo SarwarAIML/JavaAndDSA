@@ -10,6 +10,6 @@ public class DecimalToBinaryConvProgramme_4 {
     }
 
     public static void main(String[] args) {
-           fun(7);
+           fun(13);
     }
 }
