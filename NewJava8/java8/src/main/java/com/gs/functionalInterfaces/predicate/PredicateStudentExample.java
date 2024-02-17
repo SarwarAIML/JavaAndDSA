@@ -14,7 +14,8 @@ public class PredicateStudentExample {
     static {
         studentList = StudentDataBase.getAllStudents();
     }
-    public static void filterStudentByGradeLevel(){
+    //student.getGradeLevel() >= 3
+    public static void filterStudentByGradeLevel(){//student.getGradeLevel() >= 3
         System.out.println("===================filterStudentByGradeLevel()========================");
         studentList.forEach(student -> {
             if (gradelevelPredicate.test(student)){
@@ -22,6 +23,7 @@ public class PredicateStudentExample {
             }
         });
     }
+    // student.getGpa() >= 3.9
     public static void filterStudentByGpa(){
         System.out.println("===================filterStudentByGpa()========================");
         studentList.forEach(student -> {
@@ -30,10 +32,13 @@ public class PredicateStudentExample {
             }
         });
     }
+    // student.getGpa() >= 3.9 and student.getGradeLevel() >= 3
     public static void filterStudentByGradeAndGPA(){
         System.out.println("===================filterStudentByGradeAndGPA()========================");
         studentList.forEach(student -> {
             if (gradelevelPredicate.and(gpaPredicate).test(student)){
+                System.out.println(student);
+            }else {
                 System.out.println(student);
             }
         });
