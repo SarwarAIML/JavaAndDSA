@@ -4,69 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="programme added">
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/constructorRefrence/ConstructorReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/BinaryOperator/BinaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/bipredicate/BiPredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/function/BiFunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/function/FunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/function/FunctionExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/function/FunctionStudentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/prdicateAndConsumer/PredicateAndConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/supplier/SupplierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/unaryOperator/Java8UnaryOperator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/unaryOperator/UnaryOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/imprativeVSdeclarative/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/lambda/LambdaVariable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/lambda/LambdaVariable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/merhodRefrence/ConsumerMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/merhodRefrence/FunctionMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/merhodRefrence/RefectoryMethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericBoxingUnboxingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericStreamAggregateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericStreamsBoxingUnboxingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericStreamsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericStreamsMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/numericstreams/NumericStreamsRangesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalOfEmptyNullableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalOrElseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/parallelStreams/ParallelStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/parallelStreams/ParallelStreamExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/parallelStreams/ParallelStreamsBoxedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/parallelStreams/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/parallelStreams/SumClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/Collection_VS_Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/SteamFlatMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/SteamMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/SteamsDebuggingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/SteamsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/SteamsOfIterateGenerateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamFilterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamMatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamsFindAnyFirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamsLimitSkipExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamsMapReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamsMaxMinExampleUsingReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/StreamsReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamCountingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamGropingByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamMinByMaxByExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamSumAvgInExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamsJoiningExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamsMappingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/streams/stream_terminal/StreamsPartitioningByExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="new problem solving has been added">
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/resources/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/ApplicationOfStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/NextGreatestElementOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/PreviousGreaterElementOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackImpInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingSingleLInkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StockSpanProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/TwoStackUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/01StockSpanProblemStatement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/02StockSpanProblem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/03StockSpanSOlution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/BalanceParanthesis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/dates/LocalDateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/dates/NewDateTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Client123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Client14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/DefaultMethodExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/DefaultMethodsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/MultiplierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/MultiplierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalMapFlapMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalPresentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/DecimalToBinaryConvProgramme_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/DecimalToBinaryConvProgramme_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/Programme_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV1/src/main/java/recursion/exersise1/gen/Programme_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/string/ContFreqOfCharInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/ContFreqOfCharInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewJava8/java8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewJava8/java8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/predicate/PredicateStudentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/functionalInterfaces/predicate/PredicateStudentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samples/src/main/java/epam/FibbonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/Samples/src/main/java/epam/FibbonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StreamAPI/src/test/java/exercises/Java8Problems.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamAPI/src/test/java/exercises/Java8Problems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/array/ArrayProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/ArrayProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/ArrayIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ArrayIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/ChocolateDistributionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ChocolateDistributionProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/CycleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/CycleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/IntersectionOf2SortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/IntersectionOf2SortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MinimumDifferenceInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MinimumDifferenceInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/QuickSortPartitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/QuickSortPartitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortArrayWithThreeTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithThreeTypesOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortArrayWithTwoTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithTwoTypesOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortedArraysIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortedArraysIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/UnionOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/UnionOfArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/data/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/data/Bike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +88,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2a5XWB1TxzLRy1v4L2wug8NAaHs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -110,10 +100,13 @@
     "Application.AdderTest.executor": "Run",
     "Application.AnagramCheck.executor": "Run",
     "Application.BTTest.executor": "Run",
+    "Application.BalancedParentheses.executor": "Run",
     "Application.BiFunctionExample.executor": "Run",
     "Application.BiPredicateExample.executor": "Run",
     "Application.BiconsumerExample.executor": "Run",
     "Application.BinaryOperatorExample.executor": "Run",
+    "Application.Client123.executor": "Run",
+    "Application.Client14.executor": "Run",
     "Application.Collection_VS_Stream.executor": "Run",
     "Application.ComparatorLambda.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
@@ -123,6 +116,8 @@
     "Application.ConsumerMethodReferenceExample.executor": "Run",
     "Application.ContFreqOfCharInString.executor": "Run",
     "Application.DecimalToBinaryConvProgramme_4.executor": "Run",
+    "Application.DefaultMethodExample2.executor": "Run",
+    "Application.DefaultMethodsExample1.executor": "Run",
     "Application.EvenOddCollector.executor": "Run",
     "Application.FibbonacciSeries.executor": "Run",
     "Application.FunctionExample.executor": "Run",
@@ -133,31 +128,43 @@
     "Application.ImperativeVsDeclarativeExample2.executor": "Run",
     "Application.Java8UnaryOperator1.executor": "Run",
     "Application.LambdaVariable2.executor": "Run",
+    "Application.LocalDateExample.executor": "Run",
+    "Application.MultiplierClient.executor": "Run",
+    "Application.NewDateTimeExample.executor": "Run",
+    "Application.NextGreatestElementOfArray.executor": "Run",
     "Application.NumericStreamAggregateExample.executor": "Run",
     "Application.NumericStreamsBoxingUnboxingExample.executor": "Run",
     "Application.NumericStreamsExample.executor": "Run",
     "Application.NumericStreamsMapExample.executor": "Run",
     "Application.NumericStreamsRangesExample.executor": "Run",
     "Application.OptionalExample.executor": "Run",
+    "Application.OptionalMapFlapMapExample.executor": "Run",
     "Application.OptionalOfEmptyNullableExample.executor": "Run",
     "Application.OptionalOrElseExample.executor": "Run",
+    "Application.OptionalPresentExample.executor": "Run",
     "Application.ParallelStreamExample.executor": "Run",
     "Application.ParallelStreamExample1.executor": "Run",
     "Application.ParallelStreamsBoxedExample.executor": "Run",
     "Application.PredicateAndConsumerExample.executor": "Run",
     "Application.PredicateExample.executor": "Run",
     "Application.PredicateStudentExample.executor": "Run",
+    "Application.PreviousGreaterElementOfArray.executor": "Run",
     "Application.PrintNumberANdLatter.executor": "Run",
     "Application.PrintNumbersAndLetters.executor": "Run",
     "Application.Programme_1.executor": "Run",
     "Application.RefectoryMethodReferenceExample.executor": "Run",
     "Application.RunnableLambdaExample.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.StackImpInJava.executor": "Run",
+    "Application.StackUsingArray.executor": "Run",
+    "Application.StackUsingArrayList.executor": "Run",
+    "Application.StackUsingSingleLInkedList.executor": "Run",
     "Application.SteamFlatMapExample.executor": "Run",
     "Application.SteamMapExample.executor": "Run",
     "Application.SteamsDebuggingExample.executor": "Run",
     "Application.SteamsExample.executor": "Run",
     "Application.SteamsOfIterateGenerateExample.executor": "Run",
+    "Application.StockSpanProblem.executor": "Run",
     "Application.StreamComparatorExample.executor": "Run",
     "Application.StreamCountingExample.executor": "Run",
     "Application.StreamFilterExample.executor": "Run",
@@ -176,6 +183,7 @@
     "Application.SumClient.executor": "Run",
     "Application.SupplierExample.executor": "Run",
     "Application.Taget.executor": "Run",
+    "Application.TwoStackUsingArray.executor": "Run",
     "Application.UnaryOperatorExample.executor": "Run",
     "JUnit.Java8Problems.findNthSmallestInMatrix.executor": "Run",
     "JUnit.Java8Problems.findTopElementOfMapBasedOnKeyCount.executor": "Run",
@@ -189,7 +197,7 @@
     "full.screen.before.presentation.mode": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA/DSA/JAVA dsa DOC.docx",
+    "last_opened_file_path": "D:/JAVA/DSA/DSAV2/src/main/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -201,23 +209,24 @@
       <recent name="miscellaneous.immutable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\DSA\DSAV2\src\main\resources\stack" />
       <recent name="D:\JAVA\DSA\NewJava8\java8\slides" />
       <recent name="D:\JAVA\DSA\Samples\src\main\java" />
       <recent name="D:\JAVA\DSA\Samples\src\main" />
       <recent name="D:\JAVA\DSA\StreamAPI\src\main\java" />
-      <recent name="D:\JAVA\DSA\StreamAPI" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gs.defaults" />
       <recent name="com.gs.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalOrElseExample">
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.optional.OptionalExample" />
-      <module name="java8" />
+  <component name="RunManager" selected="Application.NextGreatestElementOfArray">
+    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.BalancedParentheses" />
+      <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.optional.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalOfEmptyNullableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.optional.OptionalOfEmptyNullableExample" />
-      <module name="java8" />
+    <configuration name="NextGreatestElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextGreatestElementOfArray" />
+      <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.optional.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalOrElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.optional.OptionalOrElseExample" />
-      <module name="java8" />
+    <configuration name="PreviousGreaterElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PreviousGreaterElementOfArray" />
+      <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.optional.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamsBoxedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.parallelStreams.ParallelStreamsBoxedExample" />
-      <module name="java8" />
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.StockSpanProblem" />
+      <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.parallelStreams.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.parallelStreams.SumClient" />
-      <module name="java8" />
+    <configuration name="TwoStackUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.TwoStackUsingArray" />
+      <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.parallelStreams.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OptionalOrElseExample" />
-        <item itemvalue="Application.OptionalOfEmptyNullableExample" />
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Application.SumClient" />
-        <item itemvalue="Application.ParallelStreamsBoxedExample" />
+        <item itemvalue="Application.NextGreatestElementOfArray" />
+        <item itemvalue="Application.PreviousGreaterElementOfArray" />
+        <item itemvalue="Application.StockSpanProblem" />
+        <item itemvalue="Application.TwoStackUsingArray" />
+        <item itemvalue="Application.BalancedParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703875196958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new java8 features">
+      <option name="closed" value="true" />
+      <created>1708190436128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708190436128</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new problem solving has been added">
+      <option name="closed" value="true" />
+      <created>1708190557913</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708190557913</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +417,9 @@
     <MESSAGE value="adding new problems" />
     <MESSAGE value="adding java8 palindrome problem" />
     <MESSAGE value="programme added" />
-    <option name="LAST_COMMIT_MESSAGE" value="programme added" />
+    <MESSAGE value="new java8 features" />
+    <MESSAGE value="new problem solving has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new problem solving has been added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -478,10 +505,33 @@
           </properties>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java</url>
+          <line>20</line>
+          <properties class="stack.BalancedParentheses" method="isBalanced">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java</url>
+          <line>12</line>
+          <properties class="stack.BalancedParentheses" method="isMatching">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DSAV1/src/main/java/miscellaneous/thread/PrintNumbersAndLetters.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

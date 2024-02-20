@@ -1,7 +1,6 @@
-package list.singleLinkedList.Node.sorting;
+package sorting;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class ArrayIntersection {
     public static void main(String[] args) {

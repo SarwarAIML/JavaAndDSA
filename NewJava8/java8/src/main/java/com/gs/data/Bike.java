@@ -28,9 +28,6 @@ public class Bike {
 
     @Override
     public String toString() {
-        return "Bike{" +
-                "name='" + name + '\'' +
-                ", model='" + model + '\'' +
-                '}';
+        return STR."Bike{name='\{name}\{'\''}, model='\{model}\{'\''}\{'}'}";
     }
 }

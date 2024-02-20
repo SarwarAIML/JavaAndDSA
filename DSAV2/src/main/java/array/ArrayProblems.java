@@ -168,7 +168,7 @@ public class ArrayProblems {
 
 
     /**
-     * Given a sorted array, the task is to remove the duplicate elements from the array.
+     * Given a sorted array, we have to move the array at the end of the array .
      * @param arr
      *2) Efficient Approach
      * In this approach, we maintain a count of the non-0 elements traversed.

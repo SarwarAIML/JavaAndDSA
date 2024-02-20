@@ -1,6 +1,5 @@
-package list.singleLinkedList.Node.sorting;
+package sorting;
 
-import java.net.StandardSocketOptions;
 import java.util.Arrays;
 
 public class ChocolateDistributionProblem {

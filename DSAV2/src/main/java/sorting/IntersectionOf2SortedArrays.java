@@ -1,7 +1,4 @@
-package list.singleLinkedList.Node.sorting;
-
-import java.util.ArrayList;
-import java.util.List;
+package sorting;
 
 public class IntersectionOf2SortedArrays {
 

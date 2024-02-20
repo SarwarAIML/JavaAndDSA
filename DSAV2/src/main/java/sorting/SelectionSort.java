@@ -1,4 +1,4 @@
-package list.singleLinkedList.Node.sorting;
+package sorting;
 
 import java.util.Arrays;
 
