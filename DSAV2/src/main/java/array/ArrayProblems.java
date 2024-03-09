@@ -437,18 +437,19 @@ public class ArrayProblems {
 
     public static void zeroOneSorting(int arr[]){
 
-        int type0 = 0;
-        int type1 = arr.length-1;
-        while (type0<type1){
-            if (arr[type0] == 1){
-                if (arr[type1] ==0){
-                    swap(arr,type0,type1);
-                }
-                type1--;
-            }else {
-                type0++;
-            }
-        }
+       int i = -1;
+       int j = arr.length;
+       while (true){
+           do {
+               i++;
+           }while (arr[i]==0);
+           do {
+               j--;
+           }while (arr[j]==1);
+           if(i>=j)
+               return;
+           swap(arr,i,j);
+       }
 
     }
 

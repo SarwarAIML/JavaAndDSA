@@ -4,57 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="new problem solving has been added">
-      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/resources/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/ApplicationOfStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/NextGreatestElementOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/PreviousGreaterElementOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackImpInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StackUsingSingleLInkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/StockSpanProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/TwoStackUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/01StockSpanProblemStatement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/02StockSpanProblem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/03StockSpanSOlution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/BalanceParanthesis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/dates/LocalDateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/dates/NewDateTimeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Client123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Client14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/DefaultMethodExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/DefaultMethodsExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Interface4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/MultiplierClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/defaults/MultiplierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalMapFlapMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalPresentExample.java" afterDir="false" />
+    <list default="true" id="b8084f42-bd4c-41a3-9abc-4590b9d305b7" name="Changes" comment="package correction of sorting package">
+      <change afterPath="$PROJECT_DIR$/DSAV1/src/main/java/array/old/KeepTwoDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/GetMinimum1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/GetMinimumEfficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/java/stack/LargestRectangularAreaInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/HistogarmSolution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/LargestRectangleWithAll1's_problemStatement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/PreviousGreaterElementPS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/getMinEffective2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAV2/src/main/resources/stack/nextGreatestElementsolution.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/array/ArrayProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/array/ArrayProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/ArrayIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ArrayIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/ChocolateDistributionProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ChocolateDistributionProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/CycleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/CycleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/IntersectionOf2SortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/IntersectionOf2SortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MergeTwoSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/MinimumDifferenceInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/MinimumDifferenceInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/QuickSortPartitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/QuickSortPartitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortArrayWithThreeTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithThreeTypesOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortArrayWithTwoTypesOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortArrayWithTwoTypesOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/SortedArraysIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/SortedArraysIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/list/singleLinkedList/Node/sorting/UnionOfArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/UnionOfArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/data/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/data/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ArrayIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/sorting/ArrayIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/string/StringProblemV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/StringProblemV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAV2/src/main/java/string/StringProblemsV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSAV2/src/main/java/string/StringProblemsV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/util/Stack.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/util/function/BiFunction.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -99,6 +64,7 @@
   "keyToString": {
     "Application.AdderTest.executor": "Run",
     "Application.AnagramCheck.executor": "Run",
+    "Application.ArrayProblems.executor": "Run",
     "Application.BTTest.executor": "Run",
     "Application.BalancedParentheses.executor": "Run",
     "Application.BiFunctionExample.executor": "Run",
@@ -124,10 +90,14 @@
     "Application.FunctionExample1.executor": "Run",
     "Application.FunctionMethodReferenceExample.executor": "Run",
     "Application.FunctionStudentExample.executor": "Run",
+    "Application.GetMinimum1.executor": "Run",
+    "Application.GetMinimumEfficient.executor": "Run",
     "Application.ImperativeVsDeclarative1.executor": "Run",
     "Application.ImperativeVsDeclarativeExample2.executor": "Run",
     "Application.Java8UnaryOperator1.executor": "Run",
+    "Application.KeepTwoDuplicates.executor": "Run",
     "Application.LambdaVariable2.executor": "Run",
+    "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LocalDateExample.executor": "Run",
     "Application.MultiplierClient.executor": "Run",
     "Application.NewDateTimeExample.executor": "Run",
@@ -138,7 +108,7 @@
     "Application.NumericStreamsMapExample.executor": "Run",
     "Application.NumericStreamsRangesExample.executor": "Run",
     "Application.OptionalExample.executor": "Run",
-    "Application.OptionalMapFlapMapExample.executor": "Run",
+    "Application.OptionalMapFlapMapExample.executor": "Debug",
     "Application.OptionalOfEmptyNullableExample.executor": "Run",
     "Application.OptionalOrElseExample.executor": "Run",
     "Application.OptionalPresentExample.executor": "Run",
@@ -180,6 +150,7 @@
     "Application.StreamsMaxMinExampleUsingReduce.executor": "Run",
     "Application.StreamsPartitioningByExample.executor": "Run",
     "Application.StreamsReduceExample.executor": "Run",
+    "Application.StringProblemV1.executor": "Run",
     "Application.SumClient.executor": "Run",
     "Application.SupplierExample.executor": "Run",
     "Application.Taget.executor": "Run",
@@ -208,6 +179,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="miscellaneous.immutable" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\DSA\DSAV2\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\DSA\DSAV2\src\main\resources\stack" />
       <recent name="D:\JAVA\DSA\NewJava8\java8\slides" />
@@ -220,9 +194,22 @@
       <recent name="com.gs.streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextGreatestElementOfArray">
-    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.BalancedParentheses" />
+  <component name="RunManager" selected="Application.OptionalMapFlapMapExample">
+    <configuration name="ArrayProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayProblems" />
+      <module name="DSAV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMinimumEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.GetMinimumEfficient" />
       <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
@@ -234,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreatestElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.NextGreatestElementOfArray" />
-      <module name="DSAV2" />
+    <configuration name="KeepTwoDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.old.KeepTwoDuplicates" />
+      <module name="DSAV1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="array.old.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousGreaterElementOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.PreviousGreaterElementOfArray" />
-      <module name="DSAV2" />
+    <configuration name="OptionalMapFlapMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gs.optional.OptionalMapFlapMapExample" />
+      <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="com.gs.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,25 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.StockSpanProblem" />
+    <configuration name="StringProblemV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringProblemV1" />
       <module name="DSAV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoStackUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.TwoStackUsingArray" />
-      <module name="DSAV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NextGreatestElementOfArray" />
-        <item itemvalue="Application.PreviousGreaterElementOfArray" />
-        <item itemvalue="Application.StockSpanProblem" />
-        <item itemvalue="Application.TwoStackUsingArray" />
-        <item itemvalue="Application.BalancedParentheses" />
+        <item itemvalue="Application.OptionalMapFlapMapExample" />
+        <item itemvalue="Application.KeepTwoDuplicates" />
+        <item itemvalue="Application.ArrayProblems" />
+        <item itemvalue="Application.StringProblemV1" />
+        <item itemvalue="Application.GetMinimumEfficient" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708190557913</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="package correction of sorting package">
+      <option name="closed" value="true" />
+      <created>1708423454197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708423454197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +401,8 @@
     <MESSAGE value="programme added" />
     <MESSAGE value="new java8 features" />
     <MESSAGE value="new problem solving has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new problem solving has been added" />
+    <MESSAGE value="package correction of sorting package" />
+    <option name="LAST_COMMIT_MESSAGE" value="package correction of sorting package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,6 +515,11 @@
           <url>file://$PROJECT_DIR$/DSAV2/src/main/java/stack/BalancedParentheses.java</url>
           <line>10</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NewJava8/java8/src/main/java/com/gs/optional/OptionalMapFlapMapExample.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

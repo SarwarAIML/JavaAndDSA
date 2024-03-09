@@ -69,7 +69,6 @@ public class ArrayIntersection {
          int[] ints = Arrays.stream(a)
                 .distinct()
                 .filter(x -> Arrays.asList(b).contains(x)).toArray();
-
         return ints;
     }
 }

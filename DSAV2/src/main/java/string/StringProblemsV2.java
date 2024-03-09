@@ -15,7 +15,7 @@ public class StringProblemsV2 {
         for (int i = 0; i <string.length() ; i++) {
             count[string.charAt(i) - 'a']++;
         }
-        for (int i = 0; i <256 ; i++) {
+        for (int i = 0; i <string.length() ; i++) {
             if (count[i]> 0){
                 System.out.print((char)(i+'a') +" :" + count[i]+"\t");
             }

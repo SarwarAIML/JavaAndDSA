@@ -14,7 +14,7 @@ public class StringProblemV1 {
         for (int i = 0; i <string.length() ; i++) {
             count[string.charAt(i)-'a']++;
         }
-        for (int i = 0; i <256 ; i++) {
+        for (int i = 0; i <string.length() ; i++) {
             if (count[i] > 0){
                 System.out.println((char)(i+'a') +" : "+count[i]);
             }
@@ -33,7 +33,7 @@ public class StringProblemV1 {
     public static void  printFrequencyUsingJava8(String string) {
 
         string.chars().mapToObj(ch ->Character.valueOf((char) ch))
-                .collect(Collectors.groupingBy(Function.identity(), TreeMap::new,Collectors.counting()))
+                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new,Collectors.counting()))
                 .entrySet()
                 .stream()
                 .filter(entry->entry.getValue() !=' ')
@@ -112,7 +112,7 @@ public class StringProblemV1 {
             count[string1.charAt(i)]++;
             count[string2.charAt(i)]--;
         }
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < string1.length(); i++) {
             if (count[i] > 0)
                 return false;
         }
@@ -175,7 +175,7 @@ public class StringProblemV1 {
 
     public static void main(String[] args) {
 
-        String str =  "This is Gulam Sarwar Here ";
+        String str =  "geeksforgeeks";
 
         System.out.println("========================printFrequencyOfCharsInString=========start");
             printFrequencyOfCharsInString(str);
